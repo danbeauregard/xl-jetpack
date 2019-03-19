@@ -18,5 +18,6 @@ Initial file directory for getting started with xl-jetpack
   - xl apply -f configure-xl-devops-platform.yaml
 
 # STEP 4: Create new directory for each XL Blueprint
-- Example for Monolith App
-  - Run in  /dev/xl-jetpack/monolith/
+- Example sub-directory:
+  - /dev/xl-jetpack/monolith/
+  - /dev/xl-jetpack/ecommerce/
