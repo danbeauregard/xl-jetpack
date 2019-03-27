@@ -1,7 +1,7 @@
 version: '3'
 services:
   xl-deploy:
-    image: xebialabs/xl-deploy-internal:8.6
+    image: xebialabs/xl-deploy:8.6
     container_name: xld
     ports:
     - "4516:4516"
@@ -9,7 +9,7 @@ services:
     - ADMIN_PASSWORD=admin
     - ACCEPT_EULA=Y
   xl-release:
-    image: xebialabs/xl-release-internal:8.6
+    image: xebialabs/xl-release:8.6
     container_name: xlr
     ports:
     - "5516:5516"
